@@ -21,4 +21,4 @@ int main()
 		cout << "Цифры данного трехзначного числа не образуют геометрическую прогрессию" << endl;
 	}
 }
-changes for branch2
+changes for branch2 wejhufuisdh
