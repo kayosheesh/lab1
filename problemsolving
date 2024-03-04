@@ -1,0 +1,61 @@
+Solution 1 problem
+
+#include <iostream>
+using namespace std;
+
+ int main()
+{
+int n, m, a, Sq, sq;
+cin >> n;
+cin >> m;
+cin >> a;
+Sq = n*m;
+sq = a*a;
+int sol;
+sol = Sq/sq;
+cout << sol;
+}
+
+
+Solution 2 problem
+
+#include <iostream>
+using namespace std;
+
+ int main()
+{
+	int a, b, c, com1, com2, com3, com4;
+	cin >> a;
+	cin >> b;
+	cin >> c;
+	com1 = a + b * c;
+	com2 = a * (b + c);
+	com3 = a * b * c;
+	com4 = (a + b) * c;
+	int max1, max2, max;
+	if (com1 > com2)
+	{
+		com1 = max1;
+	}
+	else
+	{
+		com2 = max2;
+	}
+	if (com3 > com4)
+	{
+		com3 = max2;
+	}
+	else
+	{
+		com4 = max2;
+	}
+	if (max1 > max2)
+	{
+		max1 = max;
+	}
+	else
+	{
+		max2 = max;
+	}
+	cout << max;
+}
